@@ -18,7 +18,7 @@ for 很适合 let，
 
 ### 不存在变量提升
 
-### 暂时性死区，什么即绑定
+### 暂时性死区，申明即绑定
 
 ```
 var tmp = 123;
@@ -43,4 +43,18 @@ PI = 3;
 // TypeError: Assignment to constant variable.
 ```
 
-块级，暂时性死区
+同样有块级，暂时性死区等属性。
+
+当 const 定义指针时，比如
+
+```
+const foo = {};
+foo.prop = 123;
+
+foo.prop
+// 123
+
+foo = {}; // TypeError: "foo" is read-only
+```
+
+指针指向的数据可变，但指针的值不可变。
