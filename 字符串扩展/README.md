@@ -75,4 +75,50 @@ var template = `
 
 ## 标签模板 
 
-放在函数后面，表示该函数调用该模板，`alert\`hello\``
+放在函数后面，表示该函数调用该模板，`alert\`hello\``，然后对于参数的处理，是有技巧的，比如
+
+```
+function tag(s, v1, v2) {
+  console.log(s[0]);
+  console.log(s[1]);
+  console.log(s[2]);
+  console.log(v1);
+  console.log(v2);
+
+  return "OK";
+}
+
+tag`Hello ${ a + b } world ${ a * b}`;
+// "Hello "
+// " world "
+// ""
+// 15
+// 50
+// "OK"
+```
+
+第一个参数 s 表示被 ${} 分割开的内容，`${ a + b }` 表示 V1，依次类推，如果不知道数量，可以不写，用 argument 代替。
+
+比如这个 safeHTML 就可以用来过滤恶意输入，
+
+```
+function SaferHTML(templateData) {
+  var s = templateData[0];
+  for (var i = 1; i < arguments.length; i++) {
+    var arg = String(arguments[i]);
+
+    // Escape special characters in the substitution.
+    s += arg.replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;");
+
+    // Don't escape special characters in the template.
+    s += templateData[i];
+  }
+  return s;
+}
+```
+
+## String.raw() 
+
+防止转义，比如 `String.raw\`i\ni\``，貌似只能用在这里吧，
