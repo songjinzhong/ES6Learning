@@ -7,3 +7,4 @@
   + [x] [3：字符串扩展](https://github.com/songjinzhong/ES6Learning/tree/master/字符串扩展)- 字符串扩展
   + [x] [4：正则表达式扩展](https://github.com/songjinzhong/ES6Learning/tree/master/正则表达式扩展)- 正则表达式扩展
   + [x] [5：数值扩展](https://github.com/songjinzhong/ES6Learning/tree/master/数值扩展)- 数值扩展
+  + [x] [6：数组扩展](https://github.com/songjinzhong/ES6Learning/tree/master/数组扩展)- 数组扩展
