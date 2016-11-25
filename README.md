@@ -9,3 +9,5 @@
   + [x] [5：数值扩展](https://github.com/songjinzhong/ES6Learning/tree/master/数值扩展)- 数值扩展
   + [x] [6：数组扩展](https://github.com/songjinzhong/ES6Learning/tree/master/数组扩展)- 数组扩展
   + [x] [7：函数扩展](https://github.com/songjinzhong/ES6Learning/tree/master/函数扩展)- 函数扩展
+  + [x] [8：对象扩展](https://github.com/songjinzhong/ES6Learning/tree/master/对象扩展)- 对象扩展
+  + [x] [9：Symbol](https://github.com/songjinzhong/ES6Learning/tree/master/Symbol)- Symbol
