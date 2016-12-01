@@ -20,3 +20,4 @@
   + [x] [16：Class](https://github.com/songjinzhong/ES6Learning/tree/master/Class)- Class
   + [x] [17：修饰器](https://github.com/songjinzhong/ES6Learning/tree/master/修饰器)- 修饰器
   + [x] [18：Module](https://github.com/songjinzhong/ES6Learning/tree/master/Module)- Module
+  + [x] [19：编程风格](https://github.com/songjinzhong/ES6Learning/tree/master/编程风格)- 编程风格
