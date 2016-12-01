@@ -21,3 +21,5 @@
   + [x] [17：修饰器](https://github.com/songjinzhong/ES6Learning/tree/master/修饰器)- 修饰器
   + [x] [18：Module](https://github.com/songjinzhong/ES6Learning/tree/master/Module)- Module
   + [x] [19：编程风格](https://github.com/songjinzhong/ES6Learning/tree/master/编程风格)- 编程风格
+  + [x] [20：ECMAScript 规格](https://github.com/songjinzhong/ES6Learning/tree/master/ECMAScript 规格)- ECMAScript 规格
+  + [x] [20：二进制数组](https://github.com/songjinzhong/ES6Learning/tree/master/二进制数组)- 二进制数组
