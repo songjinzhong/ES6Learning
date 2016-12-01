@@ -18,3 +18,5 @@
   + [x] [14：Promise对象](https://github.com/songjinzhong/ES6Learning/tree/master/Promise对象)- Promise对象
   + [x] [15：异步操作和Async函数](https://github.com/songjinzhong/ES6Learning/tree/master/异步操作和Async函数)- 异步操作和Async函数
   + [x] [16：Class](https://github.com/songjinzhong/ES6Learning/tree/master/Class)- Class
+  + [x] [17：修饰器](https://github.com/songjinzhong/ES6Learning/tree/master/修饰器)- 修饰器
+  + [x] [18：Module](https://github.com/songjinzhong/ES6Learning/tree/master/Module)- Module
