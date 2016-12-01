@@ -17,3 +17,4 @@
   + [x] [13：Generator 函数](https://github.com/songjinzhong/ES6Learning/tree/master/Generator 函数)- Generator 函数
   + [x] [14：Promise对象](https://github.com/songjinzhong/ES6Learning/tree/master/Promise对象)- Promise对象
   + [x] [15：异步操作和Async函数](https://github.com/songjinzhong/ES6Learning/tree/master/异步操作和Async函数)- 异步操作和Async函数
+  + [x] [16：Class](https://github.com/songjinzhong/ES6Learning/tree/master/Class)- Class
